@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+
+#mainContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
+
+#headerContainer {
+  width: 100%;
+  height: 20%;
+  background-color: chocolate;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.headerItem {
+  background-color: gold;
+  width: 90%;
+  height: 90%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50px;
+}
+.subContainer {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#slideNavContainer {
+  width: 100%;
+  height: 100%;
+  background-color: darkcyan;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.menuItem {
+  width: 80%;
+  height: 80%;
+  background-color: gray;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 200%;
+  cursor: pointer;
+}
+.menuItem {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.menuItem:hover {
+  width: 100%;
+  height: 100%;
+}
+
+#contentContainer {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/travel.jpeg);
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+.productContainer {
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blanchedalmond;
+}
+.header{
+  width: 100%;
+  height: 20%;
+  background-color: coral;
+  display: grid;
+  justify-content: center;
+}
+.contant{
+  width: 100%;
+  height: 50%;
+  display: grid;
+background-color: aqua;  
+}
+.price{
+  width: 40%;
+  height: 30%;
+  display: grid;
+  background-color: brown;
+  text-align: left;
+}
+.cart{
+  width: 60%;
+  height: 30%;
+  background-color: salmon;
+  display: grid;
+}
+
